@@ -122,6 +122,9 @@ disable404 = true
         [[params.interests.list]]
         interest = "Rock climbing"
 
+        [[params.interests.list]]
+        interest = "Tabletop RPGs"
+
 # Main body sections
 
     # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)

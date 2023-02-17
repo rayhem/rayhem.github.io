@@ -1,10 +1,10 @@
 # Page settings
 
-baseurl = "http://example.org/"
+baseurl = "https://rayhem.github.io/"
 languageCode = "en-us"
 title = "Connor A. Glosser"
 theme = "hugo-orbit-theme"
-googleAnalytics = "UA-XXXXXXX-Y"
+googleAnalytics = "G-HFG3V2EXDC"
 
 # Do not build files for websites. Need them? Set to false
 disableRSS = true
@@ -32,7 +32,7 @@ disable404 = true
     [params.profile]
         name = "Connor Glosser"
         tagline = "Rogue Physicist"
-        avatar = "profile.png"
+        avatar = "profile_cg.png"
 
     # Contact section
     [params.contact]
@@ -97,14 +97,6 @@ disable404 = true
         language = "English"
         level = "Native"
 
-        [[params.language.list]]
-        language = "French"
-        level = "Professional"
-
-        [[params.language.list]]
-        language = "Russian"
-        level = "Professional"
-
     # Interests section
     [params.interests]
         enable = true
@@ -134,7 +126,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
+        summary = "**As a passionate knowledge worker and teacher** I've made a career out of solving a wide array of scientific problems with computers."
 
     # Experiences section
     [params.experiences]
@@ -143,18 +135,25 @@ disable404 = true
         title = "Experiences"
 
         [[params.jobs.list]]
+        position = "Founder"
+        dates = "2022-Present"
+        company = "Lumen Scientific Technologies, LLC"
+        location = "Novi, Michigan"
+        details = "**Independent consulting work** focusing on computational domains. Software design and architecture."
+
+        [[params.jobs.list]]
         position = "Senior Engineer"
         dates = "2018 - Present"
         company = "The MathWorks, Inc."
         location = "Novi, Michigan"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justa."
+        details = "**Development of 'Simulation 3D'**—a 3d visualization and simulation tool for autonomous systems based on [Unreal Engine](https://www.unrealengine.com/en-US). Includes development of simulated sensors across modalities, including radar, ultrasonic, and vision (perception) systems. Strong software architecture tasks. Requirements gathering and toolbuilding in many domains, including automotive, aerospace, UAV, robotics, and industrial automation."
 
         [[params.jobs.list]]
         position = "Graduate Student"
         dates = "2012 - 2018"
         company = "Michigan State University"
         location = "East Lansing, Michigan"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        details = "**Ph.D researcher** at the intersection of physics, electrical engineering, and computer science. Research and development of 'fast' algorithms for electromagnetics applications, specifically for interacting [quantum dots](https://en.wikipedia.org/wiki/Quantum_dot). Development of [QuEST](https://github.com/cglosser/quest)."
 
     # Projects section
     [params.projects]
